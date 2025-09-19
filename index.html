@@ -9,81 +9,69 @@
 <body>
   
 <!-- hero -->
-<section class="hero">
-    <div class="">
-    <header class=" w-full py-0.25">
-      <nav class=" mt-5 mx-auto flex items-center max-w-7xl rounded-b-xl px-4 sm:px-6 lg:px-8">
-        <div class="w-full lg:flex lg:items-center flex items-center lg:gap-2">
-          <div class="navbar-start mt-3 flex items-center justify-between max-lg:w-full">
-            <a class="text-white flex items-center gap-3 text-xl font-bold" href="#">
-             
-              YOFOOD
-            </a>
-            <div class="flex items-center gap-5 lg:hidden">
-               <a href="#" class="rounded-4xl bg-amber-300 text-black border px-4 py-2">Reserve</a>
-              <button
-                type="button"
-                class="collapse-toggle btn btn-outline btn-secondary btn-square"
-                data-collapse="#navbar-block-4"
-                aria-controls="navbar-block-4"
-                aria-label="Toggle navigation"
-              >
-                <span class="icon-[tabler--menu-2] collapse-open:hidden size-5.5"></span>
-                <span class="icon-[tabler--x] collapse-open:block hidden size-5.5"></span>
-              </button>
+<section class="hero hero-section">
+    <div>
+        <header class="w-full py-0.25">
+            <nav class="navbar-animation mt-5 mx-auto flex items-center max-w-7xl rounded-b-xl px-4 sm:px-6 lg:px-8">
+                <div class="w-full lg:flex lg:items-center flex items-center lg:gap-2">
+                    <div class="navbar-start mt-3 flex items-center justify-between max-lg:w-full">
+                        <a class="text-white flex items-center gap-3 text-xl font-bold" href="#">
+                            YOFOOD
+                        </a>
+                        <div class="flex items-center gap-5 lg:hidden">
+                            <a href="#" class="rounded-4xl bg-amber-300 text-black border px-4 py-2">Reserve</a>
+                            <button
+                                type="button"
+                                class="collapse-toggle btn btn-outline btn-secondary btn-square"
+                                data-collapse="#navbar-block-4"
+                                aria-controls="navbar-block-4"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="icon-[tabler--menu-2] collapse-open:hidden size-5.5"></span>
+                                <span class="icon-[tabler--x] collapse-open:block hidden size-5.5"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        id="navbar-block-4"
+                        class="lg:navbar-center transition-height collapse hidden grow overflow-hidden font-medium duration-300 lg:flex"
+                    >
+                        <div class="text-white flex gap-6 font-thin max-lg:mt-4 max-lg:flex-col lg:items-center">
+                            <a href="#" class="text-white hover:text-primary">Home</a>
+                            <a href="#menu" class="text-white hover:text-primary">Menu</a>
+                            <a href="#" class="text-white hover:text-primary">About</a>
+                            <a href="#" class="text-white hover:text-primary">Contacts</a>
+                        </div>
+                    </div>
+                    <div class="navbar-end max-lg:hidden">
+                        <a href="#" class="rounded-4xl bg-amber-300 text-black border px-4 py-2">Reserve</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="h-screen flex justify-center items-center">
+            <div
+                class="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8"
+            >
+                <h1
+                    class="hero-element-animation heading text-white text-7xl relative z-1 leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance"
+                >
+                    <span>Fresh and Healthy Food Specialties</span>
+                </h1>
+                <p class="hero-element-animation subheading text-white max-w-3xl">
+                    Dive into a world of flavor this summer with our collection of Sizzling Summer Delights! From refreshing
+                    appetizers to delightful desserts
+                </p>
             </div>
-          </div>
-          <div
-            id="navbar-block-4"
-            class="lg:navbar-center transition-height collapse hidden grow overflow-hidden font-medium duration-300 lg:flex"
-          >
-            <div class="text-white flex gap-6 font-thin max-lg:mt-4 max-lg:flex-col lg:items-center">
-              <a href="#" class="text-white hover:text-primary">Home</a>
-              <a href="#menu" class="text-white hover:text-primary">Menu</a>
-              <a href="#" class="text-white hover:text-primary">About</a>
-              <a href="#" class="text-white hover:text-primary">Contacts</a>
-            </div>
-          </div>
-          <div class="navbar-end max-lg:hidden">
-            <a href="#" class="rounded-4xl bg-amber-300 text-black border px-4 py-2">Reserve</a>
-          </div>
-        </div>
-      </nav>
-    </header>
+        </main>
+    </div>
+</section>
 
-    <main class="h-screen">
-      <div
-        class="flex h-full flex-col justify-between gap-18 overflow-x-hidden pt-40 md:gap-24 md:pt-45 lg:gap-35 lg:pt-47.5"
-      >
-        <div
-          class="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8"
-        >
-          <!-- <div class="border-base-content/20 flex w-fit items-center gap-2.5 rounded-full border px-3 py-2">
-            <span class="badge badge-primary shrink-0 rounded-full">AI-Powered</span>
-            <span class="text-base-content/80">Solution for client-facing businesses</span>
-          </div> -->
-          <h1
-            class="text-white text-7xl  relative z-1 leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance"
-          >
-            <span>Fresh and Healthy Food Specialties</span>
-            
-          </h1>
-          <p class="text-white max-w-3xl">
-            Dive into a world of flavor this summer with our collection of Sizzling Summer Delights! From refreshing
-            appetizers to delightful desserts
-          </p>
-        </div>
 
+<main class="p-11 animation-main">
     
-      </div>
-    </main>
-  </div>
-</section>    
-
-
-<main class="p-11">
-    
-<section id="menu" class="menu mt-36 pt-32 pb-30 rounded-4xl shadow-2xl backdrop-blur-md">
+<section id="menu" class="menu mt-36 pt-32 pb-30 rounded-4xl shadow-2xl backdrop-blur-md animation-main fade-up">
     <div class="menu-heading mb-20">
          <h1 class="text-white text-4xl font-bold text-center">Try our New Food Menu</h1>
     </div>
@@ -182,7 +170,7 @@
 </section>
 
 
-<section class="services mt-40 backdrop-blur-sm rounded-4xl shadow-2xl p-11">
+<section class="services mt-40 backdrop-blur-sm rounded-4xl shadow-2xl p-11 animation-main fade-up">
     <h2 class="text-center text-white text-7xl font-bold mb-10 text-shadow-lg ">We Have a Service <br> That Can Satisfy You</h2>
     <p class="text-center text-white text-lg">Our services are designed to provide you with the best experience possible. <br> Whether you're looking for a quick bite or a full-course meal, we've got you covered.</p>
     <div class="btn-groups flex items-center justify-center gap-5 mt-11 flex-wrap  text-white">
@@ -196,7 +184,7 @@
 </section>
 
 
-<section class="testimonial mt-40 backdrop-blur-sm rounded-4xl shadow-2xl p-11">
+<section class="testimonial mt-40 backdrop-blur-sm rounded-4xl shadow-2xl p-11 fade-up">
     <h2 class="text-center text-6xl font-bold text-white mb-10">Testimonial</h2>
     <div class="py-8 sm:py-16 lg:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -378,8 +366,8 @@
 
 
 
-<h1 class="text-6xl font-bold mt-20 text-center text-white">Contact Us</h1>
-<section class="contact flex justify-between gap-11 mt-10 mb-20 pt-10 pb-10 pl-10 pr-10 bg-white rounded-4xl shadow-2xl max-lg:flex-col">
+<h1 class="text-6xl font-bold mt-20 text-center text-white animation-main fade-up">Contact Us</h1>
+<section class="contact flex justify-between gap-11 mt-10 mb-20 pt-10 pb-10 pl-10 pr-10 bg-white rounded-4xl shadow-2xl max-lg:flex-col fade-up animation-main">
   
   <div class="contact-card bg-[#744af4] w-80 rounded-2xl">
     <div class="p-4">
